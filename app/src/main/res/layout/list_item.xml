@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cards_background"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <TextView
+        android:id="@+id/list_item_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/knewave"
+        android:text="@string/ListItemHeader"
+        android:textColor="@color/main_solid"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/list_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/knewave"
+        android:text="@string/list_item_content"
+        android:textColor="@color/main_transparent"
+        android:textSize="20sp" />
+</LinearLayout>

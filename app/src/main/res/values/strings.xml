@@ -91,5 +91,19 @@
     </string>
     <string name="nav_homme_text">Home</string>
     <string name="nav_order_text">Order</string>
-    <string name="nav_profile_text">Order</string>
+    <string name="nav_profile_text">Profile</string>
+    <string name="helloText">Hi</string>
+    <string name="sample_name_profile_text">Eugene</string>
+    <string name="sample_notification_count">3</string>
+    <string name="today_offer_text">Today\'s offers</string>
+    <string name="savings_text">Save 20% on salads!</string>
+    <string name="quick_links_text">Quick Links</string>
+    <string name="menu_quick_link">Menu</string>
+    <string name="services_quick_link">Services</string>
+    <string name="locations_quick_link">Locations</string>
+    <string name="previous_orders_quick_link">Orders </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ListItemHeader">Sample</string>
+    <string name="list_item_content">Sonething to fill this space</string>
 </resources>

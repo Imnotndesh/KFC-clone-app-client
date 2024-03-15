@@ -5,4 +5,5 @@
     <color name="main_solid">#500404</color>
     <color name="main_solid_button_back">#A06468</color>
     <color name="main_transparent">#B3500404</color>
+    <color name="cards_background">#CC929292</color>
 </resources>
