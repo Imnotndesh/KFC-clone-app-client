@@ -110,4 +110,8 @@
     <string name="cancel_order_text">Cancel order</string>
     <string name="orders_text">Your Orders</string>
     <string name="menu_header_text">Our Menu samples</string>
+    <string name="location_header">Our locations</string>
+    <string name="services_headers_text">Our services</string>
+    <string name="food_services_header">Food</string>
+    <string name="previous_orders_header">Previous Orders</string>
 </resources>

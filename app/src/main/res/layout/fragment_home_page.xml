@@ -109,6 +109,7 @@
                         android:id="@+id/savings_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/knewave"
                         android:text="@string/savings_text"
                         android:textColor="@color/white"
                         android:textSize="34sp"
@@ -125,7 +126,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="10sp"
             android:layout_marginTop="10sp"
-            android:background="@color/cards_background">
+            android:background="@color/cards_background"
+            android:paddingTop="10sp"
+            android:paddingBottom="10sp">
 
             <TextView
                 android:id="@+id/quick_links_page"
@@ -154,7 +157,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/quick_links_page" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/orders_quick_link"
                 android:layout_width="150sp"
                 android:layout_height="50sp"
                 android:backgroundTint="@color/white"
@@ -163,11 +166,11 @@
                 android:textColor="@color/main_solid"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.763"
-                app:layout_constraintStart_toEndOf="@+id/button3"
-                app:layout_constraintTop_toTopOf="@+id/button3" />
+                app:layout_constraintStart_toEndOf="@+id/services_quick_link"
+                app:layout_constraintTop_toTopOf="@+id/services_quick_link" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/services_quick_link"
                 android:layout_width="150sp"
                 android:layout_height="50sp"
                 android:layout_marginTop="28dp"
@@ -179,7 +182,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/menu_quick_links" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/locations_quick_links"
                 android:layout_width="150sp"
                 android:layout_height="50sp"
                 android:backgroundTint="@color/white"
