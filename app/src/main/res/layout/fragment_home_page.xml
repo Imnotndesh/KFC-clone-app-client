@@ -141,16 +141,16 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/menu_quick_links"
                 android:layout_width="150sp"
                 android:layout_height="50sp"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="24dp"
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/knewave"
                 android:text="@string/menu_quick_link"
                 android:textColor="@color/main_solid"
-                app:layout_constraintBottom_toBottomOf="@+id/button4"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="75dp" />
 
             <Button
                 android:id="@+id/button2"
@@ -161,6 +161,7 @@
                 android:text="@string/previous_orders_quick_link"
                 android:textColor="@color/main_solid"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.763"
                 app:layout_constraintStart_toEndOf="@+id/button3"
                 app:layout_constraintTop_toTopOf="@+id/button3" />
 
@@ -168,26 +169,26 @@
                 android:id="@+id/button3"
                 android:layout_width="150sp"
                 android:layout_height="50sp"
-                android:layout_marginTop="76dp"
+                android:layout_marginTop="28dp"
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/knewave"
                 android:text="@string/services_quick_link"
                 android:textColor="@color/main_solid"
-                app:layout_constraintEnd_toEndOf="@+id/button"
-                app:layout_constraintTop_toBottomOf="@+id/button" />
+                app:layout_constraintEnd_toEndOf="@+id/menu_quick_links"
+                app:layout_constraintTop_toBottomOf="@+id/menu_quick_links" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="150sp"
                 android:layout_height="50sp"
-                android:layout_marginTop="96dp"
                 android:backgroundTint="@color/white"
                 android:fontFamily="@font/knewave"
                 android:text="@string/locations_quick_link"
                 android:textColor="@color/main_solid"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/button"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintHorizontal_bias="0.75"
+                app:layout_constraintStart_toEndOf="@+id/menu_quick_links"
+                tools:layout_editor_absoluteY="75dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

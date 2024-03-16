@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var navigationView: BottomNavigationView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
         enableEdgeToEdge()
         navigationView = findViewById(R.id.main_navigation)
         navigationView.setOnItemSelectedListener{ item -> val selectedFragment: Fragment? = when (item.itemId) {

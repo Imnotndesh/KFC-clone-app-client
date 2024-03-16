@@ -8,19 +8,20 @@ import android.view.ViewGroup
 import android.widget.ListView
 
 class profile_page : Fragment() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+    }
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_profile_page, container, false)
-    }
+    ): View? = inflater.inflate(R.layout.fragment_profile_page, container, false)
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val profile_stats = view.findViewById<ListView>(R.id.profile_stats_display)
-        val adapter = CustomListAdapter(requireContext())
-        profile_stats.adapter = adapter
+        //val profile_stats = view.findViewById<ListView>(R.id.profile_stats_display)
+        //val adapter = CustomListAdapter(requireContext())
+        //profile_stats.adapter = adapter
 
     }
 
