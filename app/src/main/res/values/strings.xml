@@ -114,4 +114,7 @@
     <string name="services_headers_text">Our services</string>
     <string name="food_services_header">Food</string>
     <string name="previous_orders_header">Previous Orders</string>
+    <string name="login_button_text">Login</string>
+    <string name="sign_up_bottom">New to the app,click here to sign up!</string>
+    <string name="signup_button_text">Sign Up</string>
 </resources>

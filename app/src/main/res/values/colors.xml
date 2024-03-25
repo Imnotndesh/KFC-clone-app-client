@@ -7,4 +7,6 @@
     <color name="main_transparent">#B3500404</color>
     <color name="cards_background">#CC929292</color>
     <color name="lighter_red_text">#D6726B</color>
+    <color name="input_back_color">#CEA3A0</color>
+    <color name="slightly_transparent_white">#D9FFFFFF</color>
 </resources>
